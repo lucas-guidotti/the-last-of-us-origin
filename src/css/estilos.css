@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins' , sans-serif;
+    max-width: 1960px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+.fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    opacity: 30%;
+}
+
+.logo {
+    width: 50px;
+}
+
+.easteregg {
+    width: 50px;
+}
